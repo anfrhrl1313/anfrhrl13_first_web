@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+   <meta charset = "utf-8">
+   <meta name = "keywords" content = "guppy, guppies, tropical, fish, tank, hobby, yellow, snail, sword, tail, tiger, barb, Html, CSS, Javascript, webpage, project">
+   <meta name = "viewport" content = "width = device - width, initial-scale = 1.0">
+   <meta name = "author" content = "anfrhrl13">
+   <meta name = "description" content = "Main Webpage">
+   <title>My Fishtank &hearts;</title>
+   <link href = "CSS/style.css" rel = "stylesheet">
+   <link rel = "icon" href = "Images/anfrhrl13.png">
+</head>
+
+<body>
+
+<div class = "center">
+
+<header>
+<!-- flashing and heartbeat effect for text -->
+   <h1><span id="openEvent">Welcome to My <span id="titleLetter">F</span>ishtank</span></h1>
+<!-- top left, moving fish icons -->
+   <a href = "https://www.subpng.com/png-g35ddh/" target = "_blank"><img class= "fishiconMoving" src = "Images/fishicon.png" alt = "fishicon"></a><br>
+   <a href = "https://www.subpng.com/png-g35ddh/" target = "_blank"><img class= "fishiconMoving2" src = "Images/fishicon.png" alt = "fishicon"></a><br>
+   <a href = "https://www.subpng.com/png-g35ddh/" target = "_blank"><img class= "fishiconMoving3" src = "Images/fishicon.png" alt = "fishicon"></a>
+</header>
+
+<div id="container">
+
+<!--aside goes to the left side of the webpage-->
+<aside><br><br><br>
+   <div class="aside">
+   <h4 class="aside">Some of the things you should know as a new tropical fish owner</h4>
+      <ol>
+         <li>Ph<br>ph is a chemical term that tells you how acidic (or basic) the water is. 
+                   Each fish species prefers a different ph, and they are extremely sensitive to ph changes. 
+                   If a fish that normally lives in 6.5ph water is put into water with 7.5ph, 
+                   they will die pretty soon. 
+                   You will need a ph meter device, as well as proper sand or soil that helps create such an environment with the appropriate ph level. 
+                   That's why you need to research about the fish you want in advance and be prepared to spend money.</li>
+         <li>Temperature<br>Temperature is one of the most important factors that determine the survival of your fish. 
+                            If you have adopted 2 different fish species, and one prefers 18 degrees celsius while the other prefers 26 degrees celsius, 
+                            that means you cannot have them both in the same fish tank. 
+                            Also, a thermometer to check the temperature and a heater/cooling system is a must for your fish tank.</li>
+         <li>Food<br>Some fish don't swim much, do not have vision, and rely on their other senses to find food on the ground. 
+                     If you have this type of fish as well as other, more active fish swimming up higher, these active fish will "steal" all the food that sits at the top of the tank before it can sink down, 
+                     and the "eyeless" fish will eventually starve. 
+                     What you can do is get a type of food that sinks to the ground quickly and turn off the light--
+                     the bottom-dwelling fish are normally active at night and will find the food that other fish that rely on vision can't.</li>
+         <li>Air circulation<br>You need some type of system that creates water flow inside the tank, especially near the bottom if you have fish that normally spend time on the floor level. 
+                                Air circulation inside the tank is important for two reasons. One, it helps water flow into the filters. Two, it creates water surface wiggle, so more oxygen can be absorbed into the water.</li>
+         <li>Filters<br>Filters are a must. The size and number of filters depends on how big your tank is and how many fish you have. 
+                        Having filters (especially a sponge type) is crucial because good bacteria that improve water quality reside in the filters.</li>
+         <li>The first time<br>Let's say you've just bought a fish. You have a perfectly set-up fish tank for your new fish. You cannot just put him/her in your tank right away. 
+                               Fish are small and are subject to getting shocked and stressed by abrupt changes in their environment. They are likely to die if you change their environment suddenly. 
+                               What you might want to do is put whatever vessel your fish is in (normally a bag with fish, oxygen and water) inside the prepared fish tank. 
+                               Leave it for 30 minutes to an hour, and then let them dive. This helps them slowly adjust to the new temperature.</li>
+         <li>30% Rule<br>Even if you have a perfect cycling system in your fishtank, and the water quality seems okay, you have to clean your tank every now and then but not too often.
+                         Maybe once a week, take out 30 percent of the water, dump it, and fill the tank back up slowly. There are tools for the process that you need to purchase.
+                         Also,the new water you add to the tank has to be conditioned first. Get a solution called PSB ("photosynthetic bacteria"). You will have to add it to the new water that will be added to the tank roughly 30 minutes prior to incorporating it into the tank.
+                         The solution helps stabilize tap or other impure water by creating an appropriate ph level.
+      </ol>
+   </div>
+</aside>
+
+<!-- main goes to the center of the webpage -->
+<main>
+
+   <div>
+      <p class= "summary">
+         <span>T</span>aking care of fish can be a huge responsibility<br>
+         and is something people assume is not that hard<br>
+         until they actually try it.<br>
+         I hope my website can provide you with some knowledge about pet fish</p>
+   </div>
+
+<!-- fish comparison table -->
+   <table class = "fishTable">
+         <caption>First, I have several different kinds of tropical fish.<br>
+                  My fish can coexist together. Check the table below.</caption>
+         <tr>
+            <th> </th>
+            <th>Guppies</th>
+            <th>Swordtails</th>
+            <th>Tiger Barbs</th>
+            <th>Yellow Snails</th>
+         </tr>
+         <tr>
+            <th>Guppies</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td id = "probably">Probably</td>
+            <td>Yes</td>
+         </tr>
+         <tr>
+            <th>Swordtails</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+         </tr>
+         <tr>
+            <th>Tiger Barbs</th>
+<!-- I get a duplicate ID warning&error here because I used id "probably" twice. -->
+<!-- but am I supposed to fix the error by creating another id, for example, probably2? -->
+<!-- what if I have thousands of table data where td content should be "probably"? I'm just curious for future reference-->
+            <td id = "probably">Probably</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+         </tr>
+         <tr>
+            <th>Yellow Snails</th>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+         </tr>
+   </table><br>
+
+   <div class="summary2">
+      <span>A</span>ccording to the table above, there is a possibility my tigerbarbs and guppies might not get along with each other.<br>
+      Both of them are relatively small tropical fish. But guppies often have beautiful long fins, and tiger barbs like to chase after and attack those.<br>
+      In the worst-case scenario, guppies will die from the stress.<br><br>
+      Every fish species has different personalities and habits.<br>
+      They each prefer a different ph and temperature of their water, and a different magnitude of water stream.<br>
+      Some of them like to fight, and some of them don't.
+      Check the image below that shows who doesn't get along with whom.
+   </div><br>
+
+<!-- fish comparability chart -->
+<div>
+   <img src = "Images/fishchart.jpg" alt = "Tropical fish comparability">
+   <a href = "https://www.pinterest.co.kr/pin/151152131216446999/" target = "_blank">&copy;Copyrights</a>
+</div><br>
+
+<div>
+   I made a list of things on the left that you should be aware of especially as a new tropical fish caretaker.<br>
+   Once you have spent some time playing (not physically, haha) around with your fish and fish tank setup,<br>
+   You will want to start decorating your fish tank because it looks cool!<br>
+   On top of taking care of your fish, creating a beautiful and comfy environment for them is also big fun.<br>
+   You can find many cool fish tank decorating videos on YouTube to get some inspiration.<br>
+   Check out this cool video below. But remember that you should always first know your fish and their preferred environment before you proceed further.<br>
+</div><br>
+
+<!-- youtube video -->
+   <div>
+      <iframe width = "560" height = "315" src = "https://www.youtube.com/embed/kdCOvPg5k3Q?&mute=1" allowfullscreen></iframe>
+   </div>
+<!-- link to original video source -->
+   <div>
+      <a href = "https://www.youtube.com/embed/kdCOvPg5k3Q" target = "_blank">Link to Original Video</a>
+      <p>&copy; Copyrights Video by Foo the Flowerhorn</p>
+   </div>
+
+</main>
+
+<!-- nav goes to the right side of the webpage -->
+<nav><br><br><br><br>
+   <!-- link to other pages -->
+      <a href = "what_fish.html" target = "_blank">What fish do I have?</a>&nbsp;&hearts;<br>
+      <a href = "support_me.html" target = "_blank">Support me!</a>&nbsp;&hearts;
+      <br><br><br>
+   <!-- flopping fish -->
+      <a href = "https://www.subpng.com/png-g35ddh/" target = "_blank"><img class= "fishicon" src = "Images/fishicon.png" alt = "fishicon"></a>
+</nav>
+
+<!-- end of container div -->
+</div>
+
+<!-- footer at the bottom of the webpage -->
+<footer>
+
+   <br>
+<!-- back to top link -->
+   <a href = "#">Back to Top</a>
+   <p>&copy; Copyrights by anfrhrl13</p>
+
+</footer>
+
+<!-- end of center div -->
+</div>
+
+</body>
+
